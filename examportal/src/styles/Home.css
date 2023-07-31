@@ -1,0 +1,21 @@
+nav {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid {
+    min-height: 71vh;
+}
+
+.active-tab {
+    color: #72eff6;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.inactive-tab {
+    color: #EEEEEE;
+    font-weight: 700;
+}

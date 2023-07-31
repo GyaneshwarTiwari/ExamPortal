@@ -1,0 +1,44 @@
+.mainhead {
+    background-color: #393E46;
+    padding: 15px 0;
+    font-size: 1.25vw;
+}
+
+.subhead {
+    background-color: #00ADB5;
+    font-size: 1vw;
+    padding: 8px;
+}
+
+img {
+    width: 25vw;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .mainhead {
+        font-size: 2vw;
+    }
+
+    .subhead {
+        font-size: 1.5vw;
+    }
+
+    img {
+        width: 30vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .mainhead {
+        font-size: 3vw;
+    }
+
+    .subhead {
+        font-size: 2vw;
+    }
+
+    img {
+        width: 40vw;
+    }
+}
